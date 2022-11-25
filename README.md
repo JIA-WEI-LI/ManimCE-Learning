@@ -1,5 +1,5 @@
 # ManimCE-Learning
-# ManimCE Practuce
+# ManimCE Practice
 &emsp;&emsp;This article will not be regularly updated and practice ManimCE
 
 * ManimCE Practice
