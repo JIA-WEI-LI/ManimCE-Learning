@@ -4,7 +4,7 @@
 %%manim -qm -v WARNING CreateAndMoveARectangle
 class CreateAndMoveARectangle(Scene):
   def construct(self):
-    box = Rectangle(color=GREEN_C, fill_color=RED_D, fill_opacity=0.5, height=1, width=1)
+    box = Rectangle(color=GREEN_C, stroke_opacity=0.7, fill_color=RED_D, fill_opacity=0.5, height=1, width=1)
 
     self.add(box)
     self.play(box.animate.shift(RIGHT*2), run_time=2)
@@ -22,12 +22,13 @@ https://user-images.githubusercontent.com/119060520/204041610-f04e475f-013a-4efc
 
 ### Create Rectangle 創建矩形
 ```python
-box = Rectangle(color=GREEN_C, fill_color=RED_D, fill_opacity=0.5, height=1, width=1)
+box = Rectangle(color=GREEN_C, stroke_opacity=0.7, fill_color=RED_D, fill_opacity=0.5, height=1, width=1)
 
 self.add(box)
 ```
 &emsp;&emsp;上述指令敘述為：創建一個矩形命名為 `box`，並透過指令 `self.add()` 新增置場景中，其中創建矩形可以透過 `Rectangle()` 指令達成，而矩形的相關設定為：
 * `color`：矩形線條顏色
+* `stroke_opacity`：矩形線條顏色之透明度
 * `fill_color`：矩形填充顏色
 * `fill_opacity`：矩形填充顏色之透明度
 * `height`：矩形高度
