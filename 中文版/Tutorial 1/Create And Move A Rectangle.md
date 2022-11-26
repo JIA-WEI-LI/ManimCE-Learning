@@ -49,6 +49,12 @@ self.play(box.animate.shift(RIGHT*2), run_time=2)
 ```python
 self.play(box.animate.shift(UP*1.5+RIGHT*1))
 ```
+
+## 練習使用
+&emsp;&emsp;如果不熟悉關於顏色及大小設定或數學方面的移動，這裡有一個簡單、較為直觀且易上手的 Colab 範例，可以僅靠調整數據達到自定義動畫的目的，
+建議可以開多個視窗並試著自行改變數值：
+[Colab Example/Manim_Tutorial_1.ipynb](https://github.com/JIA-WEI-LI/ManimCE-Learning/blob/d02088c48a90b9f835a4e489a1efefef38d904db/Colab%20Example/Manim_Tutorial_1.ipynb)
+
 ## 官方網站關鍵字
 [Rectangle](https://docs.manim.community/en/stable/reference/manim.mobject.geometry.polygram.Rectangle.html?highlight=Rectangle)
 
