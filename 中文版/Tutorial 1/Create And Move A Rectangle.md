@@ -53,4 +53,4 @@ self.play(box.animate.shift(UP*1.5+RIGHT*1))
 [Rectangle](https://docs.manim.community/en/stable/reference/manim.mobject.geometry.polygram.Rectangle.html?highlight=Rectangle)
 
 ## 參考資料
-[Manim Tutorial | Updater Animations | Tutorial 1, Manim Explained](https://www.youtube.com/watch?v=MOv6yN7b2aI&t=138s)
+[Manim Tutorial | Updater Animations | Tutorial 1, Manim Explained](https://www.youtube.com/watch?v=MOv6yN7b2aI)
