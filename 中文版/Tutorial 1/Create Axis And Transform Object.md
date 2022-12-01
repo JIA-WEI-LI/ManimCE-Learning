@@ -1,15 +1,14 @@
 # Create Axis And Transform Object
 ## Code 程式碼
 ```python
-%%manim -qm -v WARNING CreateAxisAndTransformObject
 class CreateAxisAndTransformObject(Scene):
   def construct(self):
     axes = Axes( x_range=[-3,3,1], y_range=[-3,3,1], x_length=6, y_length=6)
     axes.to_edge(LEFT, buff=0.5)
-
-    circle = Circle(stroke_width=6, color=YELLOW, stroke_opacity=1, fill_color=RED_C, fill_opacity=0.8)
-    circle.set_width(2).to_edge(DR, buff=0)
-    triangle = Triangle(color=ORANGE, stroke_opacity=1, fill_color=GREY, fill_opacity=1).set_height(2).shift(DOWN*3+RIGHT*3)
+    
+    circle = Circle(radius=6, color=YELLOW, stroke_opacity=1, fill_color=RED_C, fill_opacity=0.8)
+    circle.set(width=2).to_edge(DR, buff=0)
+    triangle = Triangle(color=ORANGE, stroke_opacity=1, fill_color=GREY, fill_opacity=1).set(height=2).shift(DOWN*3+RIGHT*3)
     self.play(Write(axes))
     self.play(DrawBorderThenFill(circle))
     self.play(circle.animate.set_width(1))
