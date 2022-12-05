@@ -1,3 +1,6 @@
+import math
+from manim import *
+
 class DrawKochCurve(Scene):
   def construct(self):
     # ManimCELogo(self)
