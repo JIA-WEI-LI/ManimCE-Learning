@@ -6,10 +6,9 @@ class DrawKochCurve(Scene):
   def construct(self):
     # ManimCELogo(self)
 
-    def KochCurve(n, length=12, stroke_width=8, color=("#0A68EF", "#4AF1F2", "#0A68EF")):
+    def KochCurve(n, length=12, stroke_width=8, color=("#5544FF", "#88FF88", "#FF3322")):
       l = length / (3 ** n)
       LineGroup = Line().set_length(l)
-
 
       def NextLevel(LineGroup):
         return VGroup(*[LineGroup.copy().rotate(i) for i in [0, PI/3, -PI/3, 0]]).arrange(RIGHT, buff=0, aligned_edge=DOWN)
@@ -40,5 +39,8 @@ class DrawKochCurve(Scene):
           )
       self.wait()
 ```
+
+## 成品
+https://user-images.githubusercontent.com/119060520/205667737-7c1490df-325d-41be-89ce-8759cf5ab43e.mp4
 
 > Colab 連結：https://colab.research.google.com/drive/1RmXT0d_uOWYia0Q-Q6tZzJ9_2Y02Uhto#scrollTo=xURUy-y7UOcl
