@@ -1,6 +1,7 @@
 import math
 from manim import *
 
+# refer to https://gitlab.com/cw-manim/koch-curve
 class DrawKochCurve(Scene):
   def construct(self):
     # ManimCELogo(self)
