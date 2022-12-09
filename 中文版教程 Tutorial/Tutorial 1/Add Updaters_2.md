@@ -27,7 +27,7 @@ class AddUpdaters_2(Scene):
 ```
 ## Video 影片
 
-
+https://user-images.githubusercontent.com/119060520/206773544-9e49190a-017e-4796-b1e2-c54b76a522ee.mp4
 
 ## 練習使用
 &emsp;&emsp;如果不熟悉關於顏色及大小設定或數學方面的移動，這裡有一個簡單、較為直觀且易上手的 Colab 範例，可以僅靠調整數據達到自定義動畫的目的，建議可以開多個視窗自我練習上述同時，並試著自行改變數值：
